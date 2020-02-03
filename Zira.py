@@ -72,8 +72,6 @@ if __name__ == "__main__":
 
         elif 'facebook' in query:
             webbrowser.open("facebook.com")
-        elif 'shameless' in query:
-            webbrowser.open("shameless.com")
         elif 'studio' in query:
             os.startfile("C:\\Users\\Cvi\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
 
