@@ -64,6 +64,8 @@ if __name__ == "__main__":
             speak("...Sir...ACcording To ...wikipedia")
             print(results)
             speak(results)
+            #ABOVE Code can search any thing Through wikipediya and even read (Deafult as per code 2 Sentences) for you
+            
         elif 'youtube' in query:
             webbrowser.open("youtube.com")
         
@@ -72,8 +74,20 @@ if __name__ == "__main__":
 
         elif 'facebook' in query:
             webbrowser.open("facebook.com")
+        
+        elif 'Instagram' in query:
+            webbrowser.open("Instagram.com")
+       
+        elif 'Codechef' in query:
+            webbrowser.open("Codechef.com")
+        
+        
+        elif 'Github' in query:
+            webbrowser.open("github.com")
+        
         elif 'studio' in query:
             os.startfile("C:\\Users\\Cvi\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
+            #Change the Path according to Your System
 
         elif 'time' in query:
             strtime = datetime.datetime.now().strftime("%H:%M:%S")
