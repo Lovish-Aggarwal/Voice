@@ -85,6 +85,9 @@ if __name__ == "__main__":
         elif 'Github' in query:
             webbrowser.open("github.com")
         
+        elif 'Nvidia' in query:
+            webbrowser.open("nvidia.com")
+        
         elif 'studio' in query:
             os.startfile("C:\\Users\\Cvi\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
             #Change the Path according to Your System
